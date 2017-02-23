@@ -1,2 +1,2 @@
 # snake
-new comer practicing with classic game - snake!
+New comer practicing with classic game 'snake'.
