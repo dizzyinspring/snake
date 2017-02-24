@@ -1,19 +1,19 @@
 /**
  * Created by Administrator on 2017/2/23.
  */
-if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+//if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
     alert('131')
     for(var i = 0;i<5;i++){
-        alert(document.getElementsByTagName('button')[i]);
+       console.log(document.getElementsByTagName('button')[i]);
         document.getElementsByTagName('button')[i].setAttribute('-webkit-appearence','none');
         
     };for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');alert('3');
-} else {
-    alert('1');
-    for(i = 0;i<4;i++)
-        document.getElementsByClassName('directbut')[i].style.display = 'none';
-}
+//} else {
+//    alert('1');
+//    for(i = 0;i<4;i++)
+//        document.getElementsByClassName('directbut')[i].style.display = 'none';
+//}
 
 var snake = [
     {x:3,y:1},
