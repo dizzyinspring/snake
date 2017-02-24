@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/2/23.
  */
 //if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
-    alert('151')
+    
     for(var i = 0;i<5;i++){
        console.log(document.getElementsByTagName('button')[i]);
         document.getElementsByTagName('button')[i].style.webkitAppearance = 'none';
