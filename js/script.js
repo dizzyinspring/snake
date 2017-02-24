@@ -2,9 +2,9 @@
  * Created by Administrator on 2017/2/23.
  */
 if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
-    alert('121')
+    alert('131')
     for(var i = 0;i<5;i++){
-        alert(document.getElementsByTagName('button'));
+        alert(document.getElementsByTagName('button')[i]);
         document.getElementsByTagName('button')[i].setAttribute('-webkit-appearence','none');
         
     };for(i = 0;i<4;i++)
