@@ -1,6 +1,11 @@
 /**
  * Created by Administrator on 2017/2/23.
  */
+if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+    for(var i = 0;i<5;i++)
+        document.getElementsByClassName('but')[i].removeAttribute('onclick');
+}
+
 var snake = [
     {x:3,y:1},
     {x:2,y:1},
