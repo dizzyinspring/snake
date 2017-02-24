@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2017/2/23.
  */
-if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+/*if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
     for(var i = 0;i<5;i++)
         document.getElementsByTagName('button')[i].setAttribute('-webkit-apparence', 'none');
     for(i = 0;i<4;i++)
@@ -9,7 +9,7 @@ if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
 } else {
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].style.display = 'none';
-}
+}*/
 
 var snake = [
     {x:3,y:1},
