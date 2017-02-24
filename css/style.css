@@ -19,7 +19,6 @@ button#restart{
     display:block;
     margin:0px -webkit-calc(40% - 175px) 0px 0px;
     margin:0px calc(40% - 175px) 0px 0px;
-    margin:0px calc(40% - 175px) 0px 0px
 }
 button{
     font-size:50px;
