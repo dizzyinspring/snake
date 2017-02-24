@@ -171,11 +171,11 @@ function init(){
         {x:1,y:1}
     ];
     food = null;
-    rawdirect = null;
-    snake_show();
+    rawdirect = null;alert('fresh?');
+    snake_show();alert('snakeshow?');
     fd = new Food();
     fd.newfood();
-    fd.food_show();alert('game already initiated');
+    fd.food_show();
     if(snake_id)
         clearInterval(snake_id);
     snake_id = setInterval("movesnake()",speed);
