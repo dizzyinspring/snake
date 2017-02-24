@@ -3,6 +3,7 @@
  */
 alert('1');
 if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+    alert('444');
     for(var i = 0;i<5;i++)
         document.getElementsByTagName('button')[i].setAttribute('-webkit-apparence', 'none');alert('2');
     for(i = 0;i<4;i++)
