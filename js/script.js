@@ -3,7 +3,7 @@
  */
 if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
     for(var i = 0;i<5;i++)
-        document.getElementsByTagName('button')[i].setAttribute('-webkit-appearence', 'none');alert('2');
+        document.getElementsByTagName('button')[i].setAttribute('-webkit-appearence','none');alert('2');
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');alert('3');
 } else {
