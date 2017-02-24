@@ -2,8 +2,8 @@
  * Created by Administrator on 2017/2/23.
  */
 if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
-    for(var i = 0;i<5;i++)
-        document.getElementsByClassName('but')[i].removeAttribute('onclick');
+    for(var i = 0;i<4;i++)
+        document.getElementsByClassName('directbut')[i].removeAttribute('onclick');
 }
 
 var snake = [
