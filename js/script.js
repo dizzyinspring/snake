@@ -4,7 +4,7 @@
 if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
     alert('121')
     for(var i = 0;i<5;i++){
-        alert(console.log(document.getElementsByTagName('button')[i]));
+        alert(document.getElementsByTagName('button'));
         document.getElementsByTagName('button')[i].setAttribute('-webkit-appearence','none');
         
     };for(i = 0;i<4;i++)
