@@ -10,7 +10,7 @@ if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].style.display = 'none';
 }
-
+alert('1');
 var snake = [
     {x:3,y:1},
     {x:2,y:1},
