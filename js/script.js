@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2017/2/23.
  */
-alert('1');
+alert(navigator.userAgent);
 if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
     alert('444');
     for(var i = 0;i<5;i++)
@@ -9,6 +9,7 @@ if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');alert('3');
 } else {
+    alert('1');
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].style.display = 'none';
 }
