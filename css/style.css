@@ -21,6 +21,7 @@ button#restart{
     margin:0px calc(40% - 175px) 0px 0px
 }
 button{
+    -webkit-appearance: none;
     font-size:50px;
 }
 button#up{
