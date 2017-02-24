@@ -2,10 +2,10 @@
  * Created by Administrator on 2017/2/23.
  */
 //if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
-    alert('141')
+    alert('151')
     for(var i = 0;i<5;i++){
        console.log(document.getElementsByTagName('button')[i]);
-        document.getElementsByTagName('button')[i].setAttribute('-webkit-appearance','none');
+        document.getElementsByTagName('button')[i].style.setAttribute('-webkit-appearance','none');
         
     };for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');alert('3');
