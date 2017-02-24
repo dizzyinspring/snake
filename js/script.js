@@ -5,7 +5,7 @@
     alert('151')
     for(var i = 0;i<5;i++){
        console.log(document.getElementsByTagName('button')[i]);
-        document.getElementsByTagName('button')[i].style.setAttribute('-webkit-appearance','none');
+        document.getElementsByTagName('button')[i].style.webkitAppearance = 'none';
         
     };for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');alert('3');
