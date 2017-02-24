@@ -2,10 +2,12 @@
  * Created by Administrator on 2017/2/23.
  */
 if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
-    alert('111')
-    for(var i = 0;i<5;i++)
-        document.getElementsByTagName('button')[i].setAttribute('-webkit-appearence','none');alert('2');
-    for(i = 0;i<4;i++)
+    alert('121')
+    for(var i = 0;i<5;i++){
+        alert(console.log(document.getElementsByTagName('button')[i]));
+        document.getElementsByTagName('button')[i].setAttribute('-webkit-appearence','none');
+        
+    };for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');alert('3');
 } else {
     alert('1');
