@@ -175,7 +175,7 @@ function init(){
     snake_show();
     fd = new Food();
     fd.newfood();
-    fd.food_show();
+    fd.food_show();alert('game already initiated');
     if(snake_id)
         clearInterval(snake_id);
     snake_id = setInterval("movesnake()",speed);
