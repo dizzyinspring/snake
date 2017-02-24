@@ -9,13 +9,16 @@ p{
     width:250px;
     display:block;
     float:left;
+    margin:0px 20px 0px -webkit-calc(60% - 270px);
     margin:0px 20px 0px calc(60% - 270px);
     text-align:center;
 }
 button#restart{
+    width:175px;
     font-size:25px;
     display:block;
-    margin:0px calc(40% - 200px) 0px 0px
+    margin:0px -webkit-calc(40% - 175px) 0px 0px;
+    margin:0px calc(40% - 175px) 0px 0px;
 }
 button{
     font-size:50px;
@@ -24,17 +27,19 @@ button#up{
     width:100px;
     display:block;
     margin:0px auto;
+    clear:both;
 }
 button#left{
     width:100px;
     display:block;
     float:left;
+    margin:0px 0px 0px -webkit-calc(50% - 100px);
     margin:0px 0px 0px calc(50% - 100px);
 }
 button#right{
     width:100px;
     display:block;
-    float:left;
+    margin:0px -webkit-calc(50% - 100px) 0px 0px;
     margin:0px calc(50% - 100px) 0px 0px;
 }
 button#down{
