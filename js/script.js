@@ -6,6 +6,10 @@ if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
         document.getElementsByTagName('button')[i].style.webkitAppearance = 'none';
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');
+    document.getElementById('score').style.margin = '0px auto';
+    document.getElementById('score').style.float = 'none';
+    document.getElementById('restart').style.margin = '0px auto';
+
 } else {
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].style.display = 'none';

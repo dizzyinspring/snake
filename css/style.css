@@ -21,16 +21,18 @@ button#restart{
     margin:0px calc(40% - 175px) 0px 0px;
 }
 button{
-    font-size:50px;
+    font-size:40px;
 }
 button#up{
     width:100px;
+    height:50px;
     display:block;
     margin:0px auto;
     clear:both;
 }
 button#left{
     width:100px;
+    height:50px;
     display:block;
     float:left;
     margin:0px 0px 0px -webkit-calc(50% - 100px);
@@ -38,12 +40,14 @@ button#left{
 }
 button#right{
     width:100px;
+    height:50px;
     display:block;
     margin:0px -webkit-calc(50% - 100px) 0px 0px;
     margin:0px calc(50% - 100px) 0px 0px;
 }
 button#down{
     width:100px;
+    height:50px;
     display:block;
     margin:0px auto;
     clear:both;
