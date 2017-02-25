@@ -76,6 +76,7 @@ function Food(){
                     space.splice(j,1);
             }
         }
+        console.log(space.length);
         food = space[Math.floor(Math.random()*space.length)];
     };
 
