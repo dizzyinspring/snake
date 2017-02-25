@@ -1,19 +1,15 @@
 /**
  * Created by Administrator on 2017/2/23.
  */
-//if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
-    
-    for(var i = 0;i<5;i++){
-       console.log(document.getElementsByTagName('button')[i]);
+if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+    for(var i = 0;i<5;i++)
         document.getElementsByTagName('button')[i].style.webkitAppearance = 'none';
-        
-    };for(i = 0;i<4;i++)
-        document.getElementsByClassName('directbut')[i].removeAttribute('onclick');alert('3');
-//} else {
-//    alert('1');
-//    for(i = 0;i<4;i++)
-//        document.getElementsByClassName('directbut')[i].style.display = 'none';
-//}
+    for(i = 0;i<4;i++)
+        document.getElementsByClassName('directbut')[i].removeAttribute('onclick');
+} else {
+    for(i = 0;i<4;i++)
+        document.getElementsByClassName('directbut')[i].style.display = 'none';
+}
 
 var snake = [
     {x:3,y:1},
@@ -175,8 +171,8 @@ function init(){
         {x:1,y:1}
     ];
     food = null;
-    rawdirect = null;alert('fresh?');
-    snake_show();alert('snakeshow?');
+    rawdirect = null;
+    snake_show();
     fd = new Food();
     fd.newfood();
     fd.food_show();
