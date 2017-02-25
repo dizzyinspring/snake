@@ -106,6 +106,7 @@ function move40(){
 
 function eatfood(){
     if(snake[0].x == food.x && snake[0].y == food.y){
+        var fd = new Food();
         fd.newfood();
         snake.push(tail);
     }
@@ -159,6 +160,7 @@ function movesnake(){
     eval('move'+direct+'()');
     eatfood();
 
+    var fd = new Food();
     fd.food_show();
     snake_show();
     score = snake.length - 3;
@@ -176,7 +178,7 @@ function init(){
     food = null;
     rawdirect = null;
     snake_show();
-    fd = new Food();
+    var fd = new Food();
     fd.newfood();
     fd.food_show();
     if(snake_id)
