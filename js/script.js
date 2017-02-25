@@ -75,7 +75,6 @@ function Food(){
                     space.splice(j,1);
             }
         }
-        console.log(space.length);
         food = space[Math.floor(Math.random()*space.length)];
     };
 
@@ -114,11 +113,8 @@ function eatfood(){
 
 function snake_show(){
     block(snake[0].x,snake[0].y,'#ff061c');
-    for(i=1;i<snake.length;++i){
-        if(snake[0].x<0 || snake[0].x>19 || snake[0].y<0 || snake[0].y>19)
-            return;
+    for(i=1;i<snake.length;++i)
         block(snake[i].x,snake[i].y,'#ff3b76');
-    }
 }
 
 function failtest(){
