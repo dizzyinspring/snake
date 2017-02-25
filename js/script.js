@@ -6,9 +6,10 @@ if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
         document.getElementsByTagName('button')[i].style.webkitAppearance = 'none';
     for(i = 0;i<4;i++)
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');
-    document.getElementById('score').style.margin = '0px auto';
+    document.getElementById('score').style.margin = '-10px -webkit-calc(50% - 125px) 0px -webkit-calc(50% - 125px)';
     document.getElementById('score').style.float = 'none';
     document.getElementById('restart').style.margin = '0px auto';
+    document.getElementById('up').style.margin = '10px -webkit-calc(50% - 50px) 0px -webkit-calc(50% - 50px)';
 
 } else {
     for(i = 0;i<4;i++)
