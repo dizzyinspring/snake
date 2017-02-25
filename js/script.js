@@ -68,7 +68,6 @@ function Food(){
     var space = [];
     for (var i = 0;i<map.length;i++)
         space[i] = map[i];
-    alert(space.length);
     this.newfood = function(){
         for(var i = 0;i<snake.length;i++){
             for(var j = 0;j<space.length;j++){
