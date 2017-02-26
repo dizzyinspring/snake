@@ -1,6 +1,9 @@
+body{
+    margin:0px;
+}
 canvas{
     display:block;
-    margin:20px auto;
+    margin:15px auto;
     box-shadow:-2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9
 }
 
@@ -12,6 +15,10 @@ p{
     margin:0px 20px 0px -webkit-calc(60% - 270px);
     margin:0px 20px 0px calc(60% - 270px);
     text-align:center;
+}
+div#buttondiv{
+    display:inline-block;
+    margin:0px -webkit-calc(50% - 100px) 0px -webkit-calc(50% - 100px);
 }
 button#restart{
     width:175px;
@@ -25,14 +32,14 @@ button{
 }
 button#up{
     width:100px;
-    height:50px;
+    height:75px;
     display:block;
     margin:0px auto;
     clear:both;
 }
 button#left{
     width:100px;
-    height:50px;
+    height:75px;
     display:block;
     float:left;
     margin:0px 0px 0px -webkit-calc(50% - 100px);
@@ -40,14 +47,14 @@ button#left{
 }
 button#right{
     width:100px;
-    height:50px;
+    height:75px;
     display:block;
     margin:0px -webkit-calc(50% - 100px) 0px 0px;
     margin:0px calc(50% - 100px) 0px 0px;
 }
 button#down{
     width:100px;
-    height:50px;
+    height:75px;
     display:block;
     margin:0px auto;
     clear:both;

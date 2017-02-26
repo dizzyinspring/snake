@@ -8,9 +8,13 @@ if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
         document.getElementsByClassName('directbut')[i].removeAttribute('onclick');
     document.getElementById('score').style.margin = '-10px -webkit-calc(50% - 125px) 0px -webkit-calc(50% - 125px)';
     document.getElementById('score').style.float = 'none';
-    document.getElementById('restart').style.width = '100px';
-    document.getElementById('restart').style.margin = '0px 10px 0px -webkit-calc(100%-110px)';
-    document.getElementById('up').style.margin = '10px -webkit-calc(50% - 50px) 0px -webkit-calc(50% - 50px)';
+    document.getElementById('restart').style.display = 'inline-block';
+    document.getElementById('restart').style.fontSize = '15px';
+    document.getElementById('restart').style.width = '80px';
+    document.getElementById('restart').style.verticalAlign = 'top';
+    var deviceWidth = document.documentElement.clientWidth;
+    var marginchar = '0px 0px 0px -webkit-calc('+deviceWidth+'px - 300px)';
+    document.getElementById('buttondiv').style.margin = marginchar;
 
 } else {
     for(i = 0;i<4;i++)
